@@ -15,6 +15,8 @@ body {
 }
 
 
+
+
 #header {
 	margin-left: 50px;
 	position: relative;
@@ -52,9 +54,24 @@ p {
 
 }
 
+#inputs {
+	margin: 0 50px;
+	position: relative;
+	bottom: 300px;
+}
 
 
+.labels {
+	opacity: 0.5;
+	color: #000;
+	font-size: 10px;
+	margin-bottom: 0px;
+}
 
+#name {
+	width: 200px;
+	font-size: 11px;
+}
 
 
 
@@ -100,6 +117,7 @@ p {
 	#header {
 		position: relative;
 		bottom: 770px;
+		margin-left: 35px;
 	}
 
 	#Lalaee-logo {
@@ -110,7 +128,7 @@ p {
 	width: 550px;
 	font-size: 5.5rem;
     }
-    
+
     #title {
     	font-size: 2.7rem;
     }
@@ -123,24 +141,81 @@ p {
 @media (min-width: 725px) {
 	#header {
 		position: relative;
-		bottom: 1000px;
+		bottom: 500px;
 	}
 
 	#Lalaee-logo {
-		max-width: 100px;
+		max-width: 20px;
+		position: relative;
+		top: 100px;
 	}
 
 	#landing-text {
 	width: 650px;
 	font-size: 5.9rem;
-	margin-top: 120px;
+	margin-top: 155px;
     }
 
     #title {
-    	font-size: 3.3rem;
+    	font-size: 1.3rem;
+    	width: 300px;
     }
 
     p {
-	font-size: .9rem;
+	font-size: .5rem;
+	margin-top: 0px;
     }
+
+    #left-tab {
+    	width: 28%;
+    	float: left;
+    }
+
+    #input-container {
+    	position: relative;
+    	top: 50px;
+    	left: 170px;
+    }
+
+    #input-header {
+    	font-size: 20px;
+    	text-align: left;
+    	margin-left: 270px;
+    	max-width: 350px;
+    }
+
+    #inputs {
+    	margin: 0 10px;
+    	position: static;
+    }
+
+    #row {
+    	margin-left: 270px;
+    }
+
+    #name {
+    	font-family: Raleway;
+    	opacity: 0.3;
+    	padding: 2px 0px;
+    }
+
+    body {
+    	position: relative;
+    	bottom: 30px;
+    }
+
+}
+
+@media (max-width: 550px) {
+	#inputs {
+		margin-left: 235px;
+	}
+	
+	#input-header {
+		width: 200px;
+	}
+
+	#input-container {
+		width:300px;
+	}
 }
