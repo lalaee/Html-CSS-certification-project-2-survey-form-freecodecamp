@@ -20,8 +20,8 @@ body {
 #header {
 	margin-left: 50px;
 	position: relative;
-	bottom: 590px;
-	max-width: 100%;
+	bottom: 670px;
+	width:500px;
 }
 
 #title, #description, p {
@@ -57,7 +57,7 @@ p {
 #inputs {
 	margin: 0 50px;
 	position: relative;
-	bottom: 400px;
+	bottom: 300px;
 	margin-top: 30px;
 }
 
@@ -66,7 +66,7 @@ p {
 	opacity: 0.5;
 	color: #000;
 	font-size: 10px;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	margin-top: 10px;
 }
 
@@ -74,6 +74,7 @@ p {
 	width: 200px;
 	font-size: 11px;
 	margin-bottom: 10px;
+	padding: 4px;
     }
 }
 
@@ -97,6 +98,7 @@ p {
 
 
 @media (min-width: 375px) {
+
 	#header {
 		position: relative;
 		bottom: 680px;
@@ -113,6 +115,10 @@ p {
 
     #Lalaee-logo {
 		max-width: 50px;
+	}
+
+	#header {
+		bottom: 700px;
 	}
 }
 
@@ -204,7 +210,8 @@ p {
     #name {
     	font-family: Raleway;
     	opacity: 0.3;
-    	padding: 2px 0px;
+    	padding: 4px;
+    	font-size: 9px;
     }
 
     body {
@@ -252,11 +259,12 @@ p {
 	}
 
 	#name {
-		width: 300px;
+		width: 500px;
 		font-size: 15px;
 		opacity: 0.5;
-		padding: 10px 0;
+		padding: 10px;
 		margin-bottom: 15px;
+
 	}	
 }
 
@@ -275,6 +283,10 @@ p {
 		bottom: 300px;
 	}
 
+	#header {
+		bottom: 600px;
+	}
+
 }
 
 
@@ -290,5 +302,7 @@ p {
 	#inputs {
 		bottom: 300px;
 	}
+
+
 
 }
