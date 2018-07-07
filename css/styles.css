@@ -1,0 +1,146 @@
+html {
+	font-size: 1.3rem;
+	font-family: Raleway;
+	font-weight: 300;
+	color: #fff;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+body {
+	margin: 0px;
+}
+
+
+#header {
+	margin-left: 50px;
+	position: relative;
+	bottom: 590px;
+	max-width: 100%;
+}
+
+#title, #description, p {
+	margin-top: 0px;
+	margin-bottom: 5px;
+
+}
+
+#landing-text {
+	margin-top: 30px;
+	font-size: 4.5rem;
+
+		
+}
+
+p {
+	font-size: .6rem;
+	letter-spacing: 2px;
+	margin-top: 15px;
+}
+
+#title {
+	font-size: 2.2rem;
+	max-width: 100%;
+}
+
+#Lalaee-logo {
+	padding-bottom: 10px;
+	max-width: 30px; 
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 375px) {
+	#header {
+		position: relative;
+		bottom: 680px;
+	}
+
+	#title {
+	   width: 1000px;
+	}
+
+	#landing-text {
+	width: 450px;
+	margin-top: 67px;
+    }
+
+    #Lalaee-logo {
+		max-width: 50px;
+	}
+}
+
+
+@media (min-width: 425px) {
+	#header {
+		position: relative;
+		bottom: 770px;
+	}
+
+	#Lalaee-logo {
+		max-width: 50px;
+	}
+
+	#landing-text {
+	width: 550px;
+	font-size: 5.5rem;
+    }
+    
+    #title {
+    	font-size: 2.7rem;
+    }
+
+    p {
+	font-size: .9rem;
+    }
+}
+
+@media (min-width: 725px) {
+	#header {
+		position: relative;
+		bottom: 1000px;
+	}
+
+	#Lalaee-logo {
+		max-width: 100px;
+	}
+
+	#landing-text {
+	width: 650px;
+	font-size: 5.9rem;
+	margin-top: 120px;
+    }
+
+    #title {
+    	font-size: 3.3rem;
+    }
+
+    p {
+	font-size: .9rem;
+    }
+}
