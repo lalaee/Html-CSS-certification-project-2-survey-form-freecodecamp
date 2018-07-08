@@ -1,421 +1,95 @@
 html {
-	font-size: 1.3rem;
-	font-family: Raleway;
-	font-weight: 300;
-	color: #fff;
-}
-
-a {
-	color: #fff;
-	text-decoration: none;
+	font-family: Raleway
+	font-size: 1.5rem;
 }
 
 body {
 	margin: 0px;
 }
 
+a {
+	color: #fff;
+	text-decoration: none;	
 
+}
 
+#main-image {
+	height: auto;
+	max-width: 150%;
+}
 
-#header {
-	margin-left: 50px;
+#logo {
 	position: relative;
-	bottom: 670px;
-	width:500px;
+	bottom: 530px;
+	margin-left: 20px;
+	max-width: 30px;
 }
 
-#title, #description, p {
-	margin-top: 0px;
-	margin-bottom: 5px;
-
-}
-
-#landing-text {
-	margin-top: 30px;
-	font-size: 4.5rem;
-
-		
-}
-
-p {
-	font-size: .6rem;
-	letter-spacing: 2px;
-	margin-top: 15px;
+#text {
+	position: relative;
+	bottom: 500px;
+	font-family: Raleway;
+	color: #fff;
+	margin: 0px 20px;
 }
 
 #title {
-	font-size: 2.2rem;
-	max-width: 100%;
+	font-size: 1.9rem;
 }
 
-#Lalaee-logo {
-	padding-bottom: 10px;
-	max-width: 30px; 
-
-}
-
-#inputs {
-	margin: 0 50px;
+#form-session {
 	position: relative;
-	bottom: 400px;
-	margin-top: 30px;
+	bottom: 200px;
 }
 
+#form-title, #name-label, #survey-form {
+	color: #3721f4;
+	font-family: Raleway;
+	margin: 0px 20px;
+}
 
-.labels {
-	opacity: 0.5;
-	color: #000;
-	font-size: 10px;
-	margin-bottom: 20px;
+#survey-form {
 	margin-top: 10px;
 }
 
-#name {
-	width: 230px;
-	font-size: 11px;
-	margin-bottom: 10px;
-	padding: 4px;
-    }
+#name-label, #email-label, #number-label {
+	color: 	#000;
+	margin: 0px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media (min-width: 375px) {
-
-	#header {
-		position: relative;
-		bottom: 680px;
-	}
-
-	#title {
-	   width: 1000px;
-	}
-
-	#landing-text {
-	width: 450px;
-	margin-top: 67px;
-    }
-
-    #Lalaee-logo {
-		max-width: 50px;
-	}
-
-	#header {
-		bottom: 700px;
-	}
+#row {
+	margin-top: 20px;
 }
 
-
-@media (min-width: 425px) {
-	#header {
-		position: relative;
-		bottom: 770px;
-		margin-left: 35px;
-	}
-
-	#Lalaee-logo {
-		max-width: 50px;
-	}
-
-	#landing-text {
-	width: 550px;
-	font-size: 5.5rem;
-    }
-
-    #title {
-    	font-size: 2.7rem;
-    }
-
-    p {
-	font-size: .9rem;
-    }
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select  {
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 1px;
+  box-shadow: none;
+  box-sizing: border-box;
+  margin-top: 10px;
+  width: 310px;
+  opacity: 0.5;
 }
 
-@media (min-width: 725px) {
-	#header {
-		position: relative;
-		bottom: 500px;
-	}
-
-	#Lalaee-logo {
-		max-width: 20px;
-		position: relative;
-		top: 100px;
-	}
-
-	#landing-text {
-	width: 500px;
-	font-size: 5.9rem;
-	margin-top: 135px;
-    }
-
-    #title {
-    	font-size: 1.3rem;
-    	width: 300px;
-    }
-
-    p {
-	font-size: .5rem;
-	margin-top: 0px;
-    }
-
-    #left-tab {
-    	width: 28%;
-    	float: left;
-    }
-
-    #input-container {
-    	position: relative;
-    	top: 30px;
-    	right: 25px;
-    	margin-top: 30px;
-    	overflow: auto;
-
-    }
-
-    #input-header {
-    	font-size: 12px;
-    	text-align: left;
-    	margin-left: 270px;
-    	max-width: 350px;
-    }
-
-    #inputs {
-    	margin: 0 10px;
-    	position: static;
-    	margin-top: 30px;
-    }
-
-    #row {
-    	margin-left: 270px;
-    }
-
-    #name {
-    	font-family: Raleway;
-    	opacity: 0.3;
-    	padding: 4px;
-    	font-size: 9px;
-    	
-    }
-
-    body {
-    	position: relative;
-    	bottom: 30px;
-    }
-
-    #survey-form {
-    	
-    }
-
-    .input-field-1 {
-    	padding-left: 6px;
-    }
-
-    .labels {
-    	margin-bottom: 3px;
-    }
-
-}
-
-
-
-
-
-
-
-
-@media (max-width: 550px) {
-	#inputs {
-		width: 500px;
-		height: 500px;
-
-	}
-	
-	#input-header {
-		width: 600px;
-		font-size: 1.5rem;
-	}
-
-	#input-container {
-		width:300px;
-	}
-
-	#survey-form {
-		height: 600px;
-	}
-
-	.labels {
-		font-size: 15px;
-		margin-top: 15px;
-		margin-bottom: 20px;
-	}
-
-	#name {
-		width: 450px;
-		font-size: 15px;
-		opacity: 0.5;
-		padding: 10px;
-		margin-bottom: 25px;
-
-	}	
-}
-
-
-
-@media (max-width: 320px) {
-
-	#input-header {
-		width: 300px;
-		font-size: 1.3rem;
-		margin-top: 30px;
-	}
-
-
-	#inputs {
-		bottom: 300px;
-	}
-
-	#header {
-		bottom: 600px;
-	}
-
-	#name {
-		margin-bottom: 7px;
-	}
-
-}
-
-
-@media (max-width: 375px) {
-
-	#input-header {
-		width: 450px;
-		font-size: 1.5rem;
-		margin-top: 22px;
-	}
-
-
-	#inputs {
-		bottom: 300px;
-	}
-
-
-
-}
-
-
-
-
-
-
-@media (min-width: 1024px) {
-
-	h1 {
-		width: 400px;
-
-	}
-
-	#header {
-		bottom: 620px;
-	}
-
-	#title {
-		width: 500px;
-		font-size: 1.7rem;
-	}
-
-	#landing-text {
-		margin-top: 155px;
-	}
-
-	#input-container {
-		left: 70px;
-		top: 50px;
-	}
-
-	#input-header {
-		width: 300px;
-		font-size: 17px;
-	}
-
-	.labels {
-		font-size: 13px;
-		margin-bottom: 10px;
-	}
-
-	#name {
-		height: 20px;
-		width: 300px;
-	}
-
-	#row {
-		height: 70px;
-	}
-}
-
-
-
-
-@media (min-width: 1440px) {
-
-	h1 {
-		width: 600px;
-
-	}
-
-	#header {
-		bottom: 850px;
-		left: 20px;
-	}
-
-	#title {
-		width: 900px;
-		font-size: 2.3rem;
-	}
-
-	#landing-text {
-		margin-top: 235px;
-		width: 600px;
-	}
-
-	#input-container {
-		left: 230px;
-		top: 50px;
-	}
-
-	#input-header {
-		width: 200px;
-		font-size: 17px;
-	}
-
-	.labels {
-		font-size: 13px;
-		margin-bottom: 10px;
-	}
-
-	#name {
-		height: 20px;
-		width: 300px;
-	}
-
-	#row {
-		height: 70px;
-	}
-}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C;
+  outline: 0; }
