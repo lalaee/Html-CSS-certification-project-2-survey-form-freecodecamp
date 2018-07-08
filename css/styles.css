@@ -66,12 +66,12 @@ p {
 	opacity: 0.5;
 	color: #000;
 	font-size: 10px;
-	margin-bottom: 0px;
+	margin-bottom: 20px;
 	margin-top: 10px;
 }
 
 #name {
-	width: 200px;
+	width: 230px;
 	font-size: 11px;
 	margin-bottom: 10px;
 	padding: 4px;
@@ -191,7 +191,7 @@ p {
     }
 
     #input-header {
-    	font-size: 20px;
+    	font-size: 12px;
     	text-align: left;
     	margin-left: 270px;
     	max-width: 350px;
@@ -212,6 +212,7 @@ p {
     	opacity: 0.3;
     	padding: 4px;
     	font-size: 9px;
+    	
     }
 
     body {
@@ -221,6 +222,10 @@ p {
 
     #survey-form {
     	
+    }
+
+    .input-field-1 {
+    	padding-left: 6px;
     }
 
 }
@@ -255,15 +260,15 @@ p {
 	.labels {
 		font-size: 20px;
 		margin-top: 15px;
-		margin-bottom: 15px;
+		margin-bottom: 20px;
 	}
 
 	#name {
-		width: 500px;
+		width: 450px;
 		font-size: 15px;
 		opacity: 0.5;
 		padding: 10px;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 
 	}	
 }
@@ -285,6 +290,10 @@ p {
 
 	#header {
 		bottom: 600px;
+	}
+
+	#name {
+		margin-bottom: 15px;
 	}
 
 }
@@ -309,6 +318,9 @@ p {
 
 
 
+
+
+
 @media (min-width: 1024px) {
 	#header {
 		bottom: 620px;
@@ -321,5 +333,29 @@ p {
 
 	#landing-text {
 		margin-top: 155px;
+	}
+
+	#input-container {
+		left: 70px;
+		top: 50px;
+	}
+
+	#input-header {
+		width: 350px;
+		font-size: 17px;
+	}
+
+	.labels {
+		font-size: 13px;
+		margin-bottom: 7px;
+	}
+
+	.input-field {
+		height: 20px;
+		width: 400px;
+	}
+
+	#row {
+		height: 70px;
 	}
 }
