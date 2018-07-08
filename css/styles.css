@@ -57,7 +57,7 @@ p {
 #inputs {
 	margin: 0 50px;
 	position: relative;
-	bottom: 300px;
+	bottom: 400px;
 	margin-top: 30px;
 }
 
@@ -161,9 +161,9 @@ p {
 	}
 
 	#landing-text {
-	width: 650px;
+	width: 500px;
 	font-size: 5.9rem;
-	margin-top: 155px;
+	margin-top: 135px;
     }
 
     #title {
@@ -305,4 +305,21 @@ p {
 
 
 
+}
+
+
+
+@media (min-width: 1024px) {
+	#header {
+		bottom: 620px;
+	}
+
+	#title {
+		width: 500px;
+		font-size: 1.7rem;
+	}
+
+	#landing-text {
+		margin-top: 155px;
+	}
 }
