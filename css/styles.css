@@ -148,4 +148,81 @@ button {
   margin-top: 20px;
   color: #FFF;
   background-color: #3721f4;
- }
+}
+
+
+ /* For screen sizes more than 425px;
+––––––––––––––– */
+
+@media (min-width: 425px) {
+	#logo {
+    position: relative;
+    bottom: 600px;
+    margin-left: 20px;
+    max-width: 30px;
+    }
+
+    #text {
+    position: relative;
+    bottom: 550px;
+    font-family: Raleway;
+    color: #fff;
+    margin: 0px 20px;
+    }
+
+    #title {
+    font-size: 2.1rem;
+    width: 400px;
+    }
+}
+
+
+/* For screen sizes more than 768px;
+––––––––––––––– */
+
+@media (min-width: 768px) {
+	#left-landing {
+		width: 350px;
+	}
+
+    #main-image {
+    height: auto;
+    width: 700px;
+    }
+
+    #text {
+    position: relative;
+    bottom: 400px;
+    font-family: Raleway;
+    color: #fff;
+    margin: 0px 20px;
+    }
+
+    #title {
+    font-size: 1.7rem;
+    width: 500px;
+    }
+
+    #logo {
+    position: relative;
+    bottom: 480px;
+    margin-left: 20px;
+    max-width: 25px;
+    }
+
+    p {
+    	font-size: 8px;
+    	letter-spacing: 3px;	
+    }
+
+    #form-session {
+    position: relative;
+    bottom: 155px;
+    height: 850px;
+    }
+
+    #form-title {
+    	width: 500px;
+    }
+}
+
