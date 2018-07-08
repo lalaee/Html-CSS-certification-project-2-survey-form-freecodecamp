@@ -233,3 +233,58 @@ button {
     }
 }
 
+
+@media (min-width: 1024px) {
+
+	#main-container {
+		height: 500px;
+	}
+
+	#form-session {
+    position: relative;
+    top: 55px;
+    height: 570px;
+    float: right;
+    overflow: auto;
+    right: 0px;
+    }
+
+    #left-landing {
+    width: 440px;
+    float: left;
+    }
+
+    #text {
+    position: relative;
+    bottom: 600px;
+    font-family: Raleway;
+    color: #fff;
+    margin: 0px 20px;
+    }
+
+    #title {
+    	font-size: 50px;
+    }
+
+    #logo {
+    	bottom: 600px;
+    }
+}
+
+
+@media (min-width: 1440px) {
+
+	#form-session {
+    position: relative;
+    top: 55px;
+    height: 450px;
+    float: right;
+    overflow: auto;
+    right: 520px;
+    }
+
+    #left-landing {
+    width: 550px;
+    float: left;
+    }
+}
