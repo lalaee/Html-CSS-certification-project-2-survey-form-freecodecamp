@@ -13,6 +13,15 @@ a {
 
 }
 
+li {
+  margin-bottom: 10px; }
+
+
+ul {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
 #main-image {
 	height: auto;
 	max-width: 150%;
@@ -35,30 +44,41 @@ a {
 
 #title {
 	font-size: 1.9rem;
+	width: 300px;
 }
 
 #form-session {
 	position: relative;
-	bottom: 200px;
+	bottom: 250px;
 }
 
-#form-title, #name-label, #survey-form {
+#form-title, #name-label, #survey-form, #dropdown, #work-on, #listings {
 	color: #3721f4;
 	font-family: Raleway;
 	margin: 0px 20px;
+}
+
+#form-title {
+	width: 300px;
 }
 
 #survey-form {
 	margin-top: 10px;
 }
 
-#name-label, #email-label, #number-label {
+#name-label, #email-label, #number-label, #dropdown, #work-on, #dropdown {
 	color: 	#000;
 	margin: 0px;
 }
 
 #row {
 	margin-top: 20px;
+}
+
+#listings {
+	margin-left: 0px;
+	margin-top: 10px;
+	color: #000;
 }
 
 input[type="email"],
@@ -93,3 +113,39 @@ textarea:focus,
 select:focus {
   border: 1px solid #33C;
   outline: 0; }
+
+
+
+/* Button
+––––––––––––––– */
+
+button {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+
+button:hover,
+button:focus, {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+
+
+button {
+  margin-top: 20px;
+  color: #FFF;
+  background-color: #3721f4;
+ }
