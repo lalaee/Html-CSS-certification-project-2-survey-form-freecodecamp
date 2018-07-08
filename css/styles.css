@@ -228,6 +228,10 @@ p {
     	padding-left: 6px;
     }
 
+    .labels {
+    	margin-bottom: 3px;
+    }
+
 }
 
 
@@ -258,7 +262,7 @@ p {
 	}
 
 	.labels {
-		font-size: 20px;
+		font-size: 15px;
 		margin-top: 15px;
 		margin-bottom: 20px;
 	}
@@ -293,7 +297,7 @@ p {
 	}
 
 	#name {
-		margin-bottom: 15px;
+		margin-bottom: 7px;
 	}
 
 }
@@ -322,6 +326,12 @@ p {
 
 
 @media (min-width: 1024px) {
+
+	h1 {
+		width: 400px;
+
+	}
+
 	#header {
 		bottom: 620px;
 	}
@@ -341,18 +351,68 @@ p {
 	}
 
 	#input-header {
-		width: 350px;
+		width: 300px;
 		font-size: 17px;
 	}
 
 	.labels {
 		font-size: 13px;
-		margin-bottom: 7px;
+		margin-bottom: 10px;
 	}
 
-	.input-field {
+	#name {
 		height: 20px;
-		width: 400px;
+		width: 300px;
+	}
+
+	#row {
+		height: 70px;
+	}
+}
+
+
+
+
+@media (min-width: 1440px) {
+
+	h1 {
+		width: 600px;
+
+	}
+
+	#header {
+		bottom: 850px;
+		left: 20px;
+	}
+
+	#title {
+		width: 900px;
+		font-size: 2.3rem;
+	}
+
+	#landing-text {
+		margin-top: 235px;
+		width: 600px;
+	}
+
+	#input-container {
+		left: 230px;
+		top: 50px;
+	}
+
+	#input-header {
+		width: 200px;
+		font-size: 17px;
+	}
+
+	.labels {
+		font-size: 13px;
+		margin-bottom: 10px;
+	}
+
+	#name {
+		height: 20px;
+		width: 300px;
 	}
 
 	#row {
