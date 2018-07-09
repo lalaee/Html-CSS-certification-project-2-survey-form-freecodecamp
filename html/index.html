@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
 	<!-- Basic page needs
@@ -19,14 +18,12 @@
 	<div id="main-container">
 	<section id="left-landing">
 		<div>
-			<img id="main-image" src="..\images\sur-img.jpg">
+			<img id="main-image" src=https://preview.ibb.co/gNdwHT/sur_img.jpg" alt="sur_img"">
 		</div>
-		<div>
-			<img id="logo" src="..\images\logo.svg">
-		</div>
+		
 		<div id="text">
 			<h1 id="title">Second FCC Html&CSS Certification project - Survey form </h1>
-			<p id="decription">By <a href="https://github.com/Lalaee">Olalekan Isaac</a></p>
+			<p id="description">By <a href="https://github.com/Lalaee">Olalekan Isaac</a></p>
 		</div>
 	</section>
 	<section id="form-session">
@@ -41,31 +38,13 @@
 					class="input-field" placeholder="Enter your name" required="">
 				</div>				
 			</div>
-		    <div id="row">
-				<div class="labels">
-					<label id="email-label" for="email">* Email: </label>
-				</div>
-				<div class="rightTab">
-					<input autofocus="" type="email" name="email" id=email" 
-					class="input-field" placeholder="Enter your email" required="">
-				</div>				
-			</div>
-			<div id="row">
-				<div class="labels">
-					<label id="number-label" for="age">* Age: </label>
-				</div>
-				<div class="rightTab">
-					<input autofocus="" type="number" name="age" id="number" min="1"  max="125" 
-					class="input-field" placeholder="Age" required="">
-				</div>				
-			</div>
 			<div id="row">
 				<div class="labels">
 					<label id="dropdown" for="most-like">What best decribes you </label>
 				</div>
 				<div class="rightTab">
-					<select id="most-like" name="mostLike" class="dropdown">
-						<option disabled="" selected="" value="">Select an option</option>
+					<select id="dropdown" name="mostLike" class="dropdown">
+						<option disabled="" selected="" value="" id="dropdown">Select an option</option>
 						<option value="Fellow Dev">Fellow Dev</option>
 						<option value="Agency">Agency</option>
 						<option value="Designer">Designer</option>
@@ -75,26 +54,29 @@
 			</div>
 			<div id="row">
 				<div class="labels">
-					<label id="work-on" for="preferences">Things that I should improve on </label>
+					<label id="work-on" for="preferences">Are you impressed by what you see</label>
+				</div>
+				<div class="rightTab">
+					<ul style="list-style: none; color: #000;">
+          <li class="radio"><label><input name="radio-buttons" value="1"  type="radio" class="userRatings" >Definitely</label></li>
+          <li class="radio"><label><input name="radio-buttons" value="2"  type="radio" class="userRatings" >Well kinda</label></li>
+          <li class="radio"><label><input name="radio-buttons" value="3"  type="radio" class="userRatings" >Not sure</label></li>
+        </ul>
+				</div>				
+			</div>
+      <div id="row">
+				<div class="labels">
+					<label id="work-on" for="preferences">And things that I should improve on ? </label>
 				</div>
 				<div class="rightTab">
 					<ul id="listings" style="list-style: none;">
-						<li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">Front-end Projects</label></li>
-						<li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">Back-end Projects</li>
-						<li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Data Visualization</label></li>
-						<li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Challenges</label></li>
+						<li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">UI</label></li>
+						<li class="checkbox"><input name="prefer" value="2" type="checkbox" class="userRatings">UX</li>
+						<li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">Code Functionality</label></li>
+						<li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Nah, you good bro</label></li>
 					</ul>
 				</div>				
-			</div>
-			<div id="row">
-				<div class="labels">
-					<label id="name-label" for="name">Any comments or suggestions? </label>
-				</div>
-				<div class="rightTab">
-					<textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" 
-					placeholder="Enter your comment here..."></textarea>
-				</div>				
-			</div>
+      </div>
 			<div id="button">
 				<button id="submit" type="submit">Submit</button>
 			</div>
