@@ -1,6 +1,8 @@
 html {
 	font-family: Raleway
 	font-size: 1.5rem;
+  overflow-x: hidden;
+  
 }
 
 body {
@@ -37,7 +39,7 @@ ul {
 
 #text {
 	position: relative;
-	bottom: 500px;
+	bottom: 400px;
 	font-family: Raleway;
 	color: #fff;
 	margin: 0px 20px;
@@ -50,7 +52,7 @@ ul {
 
 #form-session {
 	position: relative;
-	bottom: 250px;
+	bottom: 170px;
 }
 
 #form-title, #name-label, #survey-form, #dropdown, #work-on, #listings {
@@ -152,6 +154,15 @@ button {
 }
 
 
+
+
+@media (min-width: 375px) {
+	#text {
+	position: relative;
+	bottom: 500px;
+  }
+}
+
  /* For screen sizes more than 425px;
 ––––––––––––––– */
 
@@ -220,7 +231,7 @@ button {
 
     #form-session {
     position: relative;
-    bottom: 155px;
+    bottom: 100px;
     height: 850px;
     }
 
@@ -235,9 +246,13 @@ button {
 
 
 @media (min-width: 1024px) {
+  
+  html {
+    overflow-y: hidden;
+  }
 
 	#main-container {
-		height: 500px;
+		height: 70px;
 	}
 
 	#form-session {
@@ -245,12 +260,12 @@ button {
     top: 55px;
     height: 570px;
     float: right;
-    overflow: auto;
-    right: 0px;
+    overflow: aut;
+    right:70px;
     }
 
     #left-landing {
-    width: 440px;
+    width: 779px;
     float: left;
     }
 
@@ -267,7 +282,7 @@ button {
     }
 
     #logo {
-    	bottom: 600px;
+    	top: 50px;
     }
 }
 
